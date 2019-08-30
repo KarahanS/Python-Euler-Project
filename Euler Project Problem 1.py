@@ -1,5 +1,4 @@
 
-
 # Project Euler Problem 1
 import time
 start=time.time()
@@ -14,5 +13,3 @@ while k<1000:
         continue
 print(sum(list_of_multiples))
 print('''<-------- %f seconds -------> ''' %(time.time()-start))
-
-
