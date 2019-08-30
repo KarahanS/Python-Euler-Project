@@ -1,16 +1,16 @@
-
 # Project Euler Problem 1
 import time
 start=time.time()
-list_of_multiples=[]
-k=1
-while k<1000:
-    if k%3==0 or k%5==0:
-        list_of_multiples.append(k)
-        k=k+1
+t=[1]
+n=2
+while n<4000000:
+    t.append(n)
+    n= n+ t[-2]
+sum=0
+for k in t:
+    if k%2==0:
+        sum=k+sum
     else:
-        k=k+1
         continue
-print(sum(list_of_multiples))
+print(toplam)
 print('''<-------- %f seconds -------> ''' %(time.time()-start))
-
