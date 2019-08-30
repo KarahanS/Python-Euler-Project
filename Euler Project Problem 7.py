@@ -21,4 +21,4 @@ while len(list)<10001:
 
 print(list[-1])
 print("--- %f seconds ---" % (time.time() - start_time))
-# Execution time --> Approximately 2 seconds
+
