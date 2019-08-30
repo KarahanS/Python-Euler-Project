@@ -1,5 +1,5 @@
 
-# Project Euler Problem 
+# Project Euler Problem 6
 
 import time
 start_time = time.time()
