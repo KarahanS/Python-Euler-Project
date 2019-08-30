@@ -1,4 +1,4 @@
-# Python-Euler-Project
+# Euler Project Python
 A list of Euler Project solutions written in Python.
 
 # What is Project Euler?
